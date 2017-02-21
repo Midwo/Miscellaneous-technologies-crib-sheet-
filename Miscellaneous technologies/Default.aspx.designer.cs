@@ -22,12 +22,12 @@ namespace Miscellaneous_technologies {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// UserControl_1 control.
+        /// UserControlNews1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Miscellaneous_technologies.UserControl_1 UserControl_1;
+        protected global::Miscellaneous_technologies.UserControl_1 UserControlNews1;
     }
 }

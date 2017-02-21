@@ -11,7 +11,7 @@ namespace Miscellaneous_technologies
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = DateTime.Now.ToLongDateString();
+           
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Miscellaneous_technologies.Default" %>
 
-<%@ Register Src="~/UserControl_1.ascx" TagPrefix="uc1" TagName="UserControl_1" %>
+<%@ Register Src="~/UserControlNews.ascx" TagPrefix="uc1" TagName="UserControlNews" %>
+
 
 
 <!DOCTYPE html>
@@ -12,7 +13,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <uc1:UserControl_1 runat="server" ID="UserControl_1" />
+      
+        <uc1:UserControlNews ID="UserControlNews1" runat="server" />
+      
     </div>
     </form>
 </body>
