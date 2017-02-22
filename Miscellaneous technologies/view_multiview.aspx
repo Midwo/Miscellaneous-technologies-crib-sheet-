@@ -17,16 +17,18 @@
         <div>
             <asp:MultiView ID="MultiView1" runat="server">
                 <asp:View ID="View1" runat="server">
-                    1
+                    1<asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" />
                 </asp:View>
                 <asp:View ID="View2" runat="server">
-                    2
+                    2<asp:Button ID="Button3" runat="server" OnClick="Button2_Click" Text="Next" />
+                    <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="Back" />
                 </asp:View>
                 <asp:View ID="View3" runat="server">
-                    3
+                    3<asp:Button ID="Button4" runat="server" OnClick="Button2_Click" Text="Next" />
+                    <asp:Button ID="Button6" runat="server" OnClick="Button7_Click" Text="Back" />
                 </asp:View>
                 <asp:View ID="View4" runat="server">
-                    4
+                    4<asp:Button ID="Button5" runat="server" OnClick="Button7_Click" Text="Back" />
                 </asp:View>
             </asp:MultiView>
         </div>
