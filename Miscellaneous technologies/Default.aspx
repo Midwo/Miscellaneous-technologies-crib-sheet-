@@ -16,6 +16,8 @@
       
         <uc1:UserControlNews ID="UserControlNews1" runat="server" />
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/view_multiview.aspx">HyperLink</asp:HyperLink>
+
+
     </div>
     </form>
 </body>

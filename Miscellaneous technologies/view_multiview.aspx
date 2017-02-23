@@ -28,7 +28,10 @@
                     <asp:Button ID="Button6" runat="server" OnClick="Button7_Click" Text="Back" />
                 </asp:View>
                 <asp:View ID="View4" runat="server">
-                    4<asp:Button ID="Button5" runat="server" OnClick="Button7_Click" Text="Back" />
+                    Nie denerwuj!<br />
+                    <asp:Image ID="Image1" runat="server" ImageUrl="https://i.ytimg.com/vi/bhwyBO-sfhk/hqdefault.jpg" />
+                    <br />
+                    <asp:Button ID="Button5" runat="server" OnClick="Button7_Click" Text="Back" />
                 </asp:View>
             </asp:MultiView>
         </div>
