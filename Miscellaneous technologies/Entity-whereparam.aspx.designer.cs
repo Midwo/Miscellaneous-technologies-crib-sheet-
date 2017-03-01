@@ -22,13 +22,13 @@ namespace Miscellaneous_technologies {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Kategoria control.
+        /// KategoriaDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Kategoria;
+        protected global::System.Web.UI.WebControls.DropDownList KategoriaDropDownList;
         
         /// <summary>
         /// EntityDataSource_Kategory control.
@@ -47,5 +47,14 @@ namespace Miscellaneous_technologies {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView1;
+        
+        /// <summary>
+        /// EntityDataSource_News control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.EntityDataSource EntityDataSource_News;
     }
 }
