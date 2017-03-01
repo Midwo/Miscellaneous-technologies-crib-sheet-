@@ -114,6 +114,7 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
+    <Content Include="Entity-simple.aspx" />
     <Content Include="Entity-whereparam.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Models\Model1.Context.tt">
@@ -139,6 +140,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entity-simple.aspx.cs">
+      <DependentUpon>Entity-simple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entity-simple.aspx.designer.cs">
+      <DependentUpon>Entity-simple.aspx</DependentUpon>
     </Compile>
     <Compile Include="Entity-whereparam.aspx.cs">
       <DependentUpon>Entity-whereparam.aspx</DependentUpon>
