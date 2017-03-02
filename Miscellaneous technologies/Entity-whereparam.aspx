@@ -8,7 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+
     <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+
         <asp:DropDownList ID="KategoriaDropDownList" runat="server" AutoPostBack="True" DataSourceID="EntityDataSource_Kategory" DataTextField="Category" DataValueField="Category" AppendDataBoundItems="True">
             <asp:ListItem>Please select</asp:ListItem>
         </asp:DropDownList>
@@ -32,6 +38,12 @@
             <SortedDescendingCellStyle BackColor="#FFFDF8" />
             <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
             </asp:GridView>
+
+
+            </ContentTemplate>
+            </asp:UpdatePanel>
+
+
         <asp:EntityDataSource ID="EntityDataSource_News" runat="server" ConnectionString="name=Database1Entities" DefaultContainerName="Database1Entities" EnableDelete="True" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="News"
             where ="it.[Category] == @Kategoria">   
             <WhereParameters>
