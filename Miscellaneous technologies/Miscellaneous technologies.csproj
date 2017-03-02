@@ -134,6 +134,8 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="Picture\default.gif" />
+    <Content Include="Picture\iconmonstr-time-16-240.png" />
     <Content Include="UserControlNews.ascx" />
     <Content Include="view_multiview.aspx" />
     <Content Include="Web.config">

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-</head>
+    </head>
 <body>
     <form id="form1" runat="server">
 
@@ -21,6 +21,11 @@
         <asp:EntityDataSource ID="EntityDataSource_Kategory" runat="server" ConnectionString="name=Database1Entities" DefaultContainerName="Database1Entities" EnableFlattening="False" EntitySetName="News" Select="Distinct it.[Category]">
      
               </asp:EntityDataSource>
+                <asp:UpdateProgress ID="UpdateProgress1" runat="server" DynamicLayout="true">
+                    <ProgressTemplate>
+                                Please wait<br /> <img src="Picture/default.gif" />
+                    </ProgressTemplate>
+                </asp:UpdateProgress>
         <br />
         <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" DataSourceID="EntityDataSource_News" AllowPaging="True" AllowSorting="True">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
