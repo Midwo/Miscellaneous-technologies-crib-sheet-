@@ -12,8 +12,9 @@
         <asp:DropDownList ID="KategoriaDropDownList" runat="server" AutoPostBack="True" DataSourceID="EntityDataSource_Kategory" DataTextField="Category" DataValueField="Category" AppendDataBoundItems="True">
             <asp:ListItem>Please select</asp:ListItem>
         </asp:DropDownList>
-        <asp:EntityDataSource ID="EntityDataSource_Kategory" runat="server" ConnectionString="name=Database1Entities" DefaultContainerName="Database1Entities" EnableFlattening="False" EntitySetName="News" Select="distinct it.[Category]">
-        </asp:EntityDataSource>
+        <asp:EntityDataSource ID="EntityDataSource_Kategory" runat="server" ConnectionString="name=Database1Entities" DefaultContainerName="Database1Entities" EnableFlattening="False" EntitySetName="News" Select="Distinct it.[Category]">
+     
+              </asp:EntityDataSource>
         <br />
         <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" DataSourceID="EntityDataSource_News" AllowPaging="True" AllowSorting="True">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
