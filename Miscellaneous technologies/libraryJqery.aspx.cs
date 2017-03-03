@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Miscellaneous_technologies
 {
-    public partial class Entity_whereparam : System.Web.UI.Page
+    public partial class libraryJqery : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            System.Threading.Thread.Sleep(1000);
+
         }
     }
 }
