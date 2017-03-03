@@ -135,6 +135,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="pagewithmasterpage.aspx" />
     <Content Include="Picture\default.gif" />
     <Content Include="Picture\iconmonstr-time-16-240.png" />
     <Content Include="Scripts\jquery-ui.js" />
@@ -151,6 +152,7 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="changemasterpage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -186,6 +188,20 @@
     <Compile Include="libraryJqery.aspx.designer.cs">
       <DependentUpon>libraryJqery.aspx</DependentUpon>
     </Compile>
+    <Compile Include="masterpage.Master.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage.Master.designer.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage2.Master.cs">
+      <DependentUpon>masterpage2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage2.Master.designer.cs">
+      <DependentUpon>masterpage2.Master</DependentUpon>
+    </Compile>
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -205,6 +221,13 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="MultiViewControlStatus.cs" />
+    <Compile Include="pagewithmasterpage.aspx.cs">
+      <DependentUpon>pagewithmasterpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pagewithmasterpage.aspx.designer.cs">
+      <DependentUpon>pagewithmasterpage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserControlNews.ascx.cs">
       <DependentUpon>UserControlNews.ascx</DependentUpon>
@@ -220,6 +243,13 @@
     <Compile Include="view_multiview.aspx.designer.cs">
       <DependentUpon>view_multiview.aspx</DependentUpon>
     </Compile>
+    <Compile Include="changemasterpage.aspx.cs">
+      <DependentUpon>changemasterpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="changemasterpage.aspx.designer.cs">
+      <DependentUpon>changemasterpage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -231,6 +261,8 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="masterpage.Master" />
+    <Content Include="masterpage2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
